@@ -6,7 +6,10 @@
     <file url="file://$PROJECT_DIR$/apigateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/water-api" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

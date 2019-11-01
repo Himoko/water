@@ -11,7 +11,9 @@
         <module name="config" />
         <module name="config-center" />
         <module name="member" />
+        <module name="order" />
         <module name="water" />
+        <module name="water-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,7 @@
       <module name="api (1)" target="1.8" />
       <module name="api (2)" target="1.8" />
       <module name="config" target="1.8" />
+      <module name="demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,7 +32,10 @@
       <module name="apigateway" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="config-center" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="member" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="water-api" options="-parameters" />
     </option>
   </component>
 </project>
