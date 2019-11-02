@@ -1,1 +1,18 @@
+server:
+  port: 8088
 
+#spring配置中心
+spring:
+  application:
+    name: config-server
+  cloud:
+    zookeeper:
+      connect-string: 203.195.246.36:2181,203.195.246.36:2182,203.195.246.36:2183
+      discovery:
+        enabled: true
+        register: true
+    config:
+      server:
+        git:
+          uri: https://github.com/Himoko/water.git
+          searchPaths: config

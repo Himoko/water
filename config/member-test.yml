@@ -1,0 +1,7 @@
+spring:
+  #MySQL数据源
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://203.195.246.36:3306/himoko?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver

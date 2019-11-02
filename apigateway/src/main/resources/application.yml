@@ -5,7 +5,7 @@ spring:
     gateway:
       routes:
         - id: api_route
-          uri: http://localhost:8081/api
+          uri: http://localhost:8081
           predicates:
-            - Path=/member/**
+            - Path=/api/member/**
             - Method=GET
