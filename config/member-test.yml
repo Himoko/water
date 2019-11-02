@@ -4,4 +4,4 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://203.195.246.36:3306/himoko?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
