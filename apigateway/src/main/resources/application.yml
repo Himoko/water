@@ -13,9 +13,9 @@ spring:
               - StripPrefix=1  #忽略Path的第一个参数，比如上面的api
 
         - id: api_member_route
-          uri: http://localhost:8083
-          predicates:
-            - Path=/api/member/**
-            - Method=GET
-          filters:
-            - StripPrefix=1
+            uri: http://localhost:8083
+            predicates:
+              - Path=/api/member/**
+              - Method=GET
+            filters:
+              - StripPrefix=1
