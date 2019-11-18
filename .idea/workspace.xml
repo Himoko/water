@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ee07ece-7b3c-4fc5-accd-263e8ddd7047" name="Default Changelist" comment="调通API 转发">
-      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/himoko/member/config/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/assets/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/assets/utils/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/components/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/components/test.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/static/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water-fe/static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6ee07ece-7b3c-4fc5-accd-263e8ddd7047" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -99,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apigateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="25">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -263,7 +229,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -380,7 +356,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574066742020" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574066947885" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -507,7 +483,7 @@
       <workItem from="1572831005984" duration="5722000" />
       <workItem from="1573001377053" duration="8553000" />
       <workItem from="1573201425277" duration="5332000" />
-      <workItem from="1573782620342" duration="22808000" />
+      <workItem from="1573782620342" duration="23135000" />
     </task>
     <task id="LOCAL-00001" summary="RPC调用">
       <created>1572600696101</created>
@@ -537,17 +513,31 @@
       <option name="project" value="LOCAL" />
       <updated>1574056098004</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加前端页面">
+      <created>1574066647705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574066647705</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改网关">
+      <created>1574066756560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574066756560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69181000" />
+    <option name="totallyTimeSpent" value="69508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24126984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24126984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,7 +564,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.12936509" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.12936509" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.15158731" />
@@ -590,7 +580,9 @@
     <MESSAGE value="RPC调用" />
     <MESSAGE value="测试配置中心" />
     <MESSAGE value="调通API 转发" />
-    <option name="LAST_COMMIT_MESSAGE" value="调通API 转发" />
+    <MESSAGE value="增加前端页面" />
+    <MESSAGE value="修改网关" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改网关" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/Data.class">
@@ -957,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apigateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="25">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
