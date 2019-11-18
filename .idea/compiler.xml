@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="apigateway" />
-        <module name="config" />
         <module name="config-center" />
         <module name="member" />
         <module name="order" />

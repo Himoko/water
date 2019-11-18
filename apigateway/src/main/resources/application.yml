@@ -4,8 +4,18 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: api_route
-          uri: http://localhost:8081
+        - id: api_order_route
+            uri: http://localhost:8082
+            predicates:
+              - Path=/api/order/** # 匹配路径 即地址带有/api/order/** 的会转发到 http://localhost:8082
+              - Method=GET
+            filters:
+              - StripPrefix=1  #忽略Path的第一个参数，比如上面的api
+
+        - id: api_member_route
+          uri: http://localhost:8083
           predicates:
             - Path=/api/member/**
             - Method=GET
+          filters:
+            - StripPrefix=1

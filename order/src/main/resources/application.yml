@@ -4,12 +4,12 @@ server:
     context-path: /order
 
 spring:
-  #MySQLÊý¾ÝÔ´
+  #MySQLï¿½ï¿½ï¿½ï¿½Ô´
   datasource:
     username: root
     password: 123456
     url: jdbc:mysql://203.195.246.36:3306/himoko?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   application:
     name: order
@@ -18,17 +18,17 @@ spring:
       ribbon:
         enabled: false
 
-    #zookeeperÅäÖÃÖÐÐÄ
+    #zookeeperï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     zookeeper:
       connect-string: 203.195.246.36:2181,203.195.246.36:2182,203.195.246.36:2183
       discovery:
         enabled: true
         register: true
 
-#mybatisÅäÖÃ
+#mybatisï¿½ï¿½ï¿½ï¿½
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.himoko.order.pojo
   configuration:
-    #×Ô¶¯×ª»¯³ÉÍÕ·å
+    #ï¿½Ô¶ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½Õ·ï¿½
     map-underscore-to-camel-case: true

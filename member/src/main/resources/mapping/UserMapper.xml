@@ -5,7 +5,7 @@
 
     <select id="getUser" resultType="com.himoko.member.pojo.User">
         SELECT
-        user_id, user_name, user_password, user_email
+        id, username, password, email
         FROM t_user
     </select>
 

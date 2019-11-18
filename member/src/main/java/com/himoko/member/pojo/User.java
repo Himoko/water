@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Data
 public class User implements Serializable {
 
-    private Integer userId;
+    private Integer id;
 
     @NonNull
     private String username;
@@ -22,6 +22,6 @@ public class User implements Serializable {
     @NonNull
     private String password;
 
-    private String userEmail;
+    private String email;
 
 }
